@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MusicOfflineKotlin</string>
+    <string name="channel_name">Notification channel</string>
+    <string name="channel_description">Notification channel music</string>
+    <string name="dialog_box">Notifications</string>
+    <string name="btn_ok">Agree</string>
+    <string name="lbl_loading">Please wait while loading</string>
+    <string name="lbl_home">Home</string>
+    <string name="lbl_library">Library</string>
+    <string name="lbl_search">Search</string>
+    <string name="lbl_recommended_to_you">Suggest To You</string>
+    <string name="lbl_my_playlist">My Playlist</string>
+    <string name="lbl_playing_mussic">Music Player</string>
+    <string name="lbl_erro_song">Doesn\'t exist</string>
+    <string name="lbl_lyrics_null">Lyrics Not Found</string>
+    <string name="search_hint1">Find songs, playlists</string>
+    <string name="lbl_recent_searches">Recent searches</string>
+    <string name="lbl_delete_history">Delete Search</string>
+    <string name="lbl_song">Song</string>
+    <string name="lbl_album">Album</string>
+    <string name="lbl_play_list">Playlist</string>
+    <string name="lbl_like">Favorite</string>
+    <string name="lbl_all">All</string>
+    <string name="lbl_play_random">Random play</string>
+    <string name="lbl_add_playlist">Add to playlist</string>
+    <string name="lbl_add_favorite">Add to favorite</string>
+    <string name="lbl_delete">Delete</string>
+</resources>

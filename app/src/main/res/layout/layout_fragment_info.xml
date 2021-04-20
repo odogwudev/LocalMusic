@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/mImgInfo"
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="@dimen/_180sdp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        app:riv_corner_radius="@dimen/_14sdp"
+        app:riv_mutate_background="true" />
+
+    <TextView
+        android:id="@+id/mTxtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mImgInfo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text=""
+        android:textColor="@color/white"
+        android:textFontWeight="400"
+        android:textSize="@dimen/_36ssp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/mTxtSinger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mTxtName"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/hAB11C5"
+        android:textFontWeight="400"
+        android:textSize="@dimen/_14ssp" />
+
+    <ImageView
+        android:id="@+id/mImgFavorite1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/mTxtSinger"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_favorite" />
+
+</RelativeLayout>
